@@ -1,0 +1,542 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_API_KEY",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_BASE_URL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_NAME",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_TAGLINE",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_ENV",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_API_KEY",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "validate_config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_NAME",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_ENV",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_API_KEY",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "validate_config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "validate_payload",
+        "importPath": "validators",
+        "description": "validators",
+        "isExtraImport": true,
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "validate_payload",
+        "importPath": "validators",
+        "description": "validators",
+        "isExtraImport": true,
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "validate_payload",
+        "importPath": "validators",
+        "description": "validators",
+        "isExtraImport": true,
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "validate_payload",
+        "importPath": "validators",
+        "description": "validators",
+        "isExtraImport": true,
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "parse_llm_response",
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "isExtraImport": true,
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "extract_response_metadata",
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "isExtraImport": true,
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_llm_response",
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "isExtraImport": true,
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_llm_response",
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "isExtraImport": true,
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "kind": 2,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "def send_llm_request(\n    payload: dict,\n    max_retries: int = 3,\n) -> dict:\n    # 1. Validate payload\n    payload_errors = validate_payload(payload)\n    if payload_errors:\n        return {\n            \"success\": False,\n            \"stage\": \"payload_validation\",",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "validate_config",
+        "kind": 2,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "def validate_config():\n    \"\"\"\n    Validate required application configuration.\n    Returns:\n        list: A list of configuration errors.\n              An empty list means configuration is valid.\n    \"\"\"\n    errors = []\n    if not OPENROUTER_API_KEY:\n        errors.append(",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_NAME",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "APP_NAME = \"PayloadLab AI\"\nAPP_TAGLINE = \"Inspect. Validate. Understand AI API Data.\"\nOPENROUTER_API_KEY = os.getenv(\n    \"OPENROUTER_API_KEY\"\n)\nOPENROUTER_BASE_URL = \"https://openrouter.ai/api/v1\"\nDEFAULT_MODEL = os.getenv(\n    \"DEFAULT_MODEL\",\n    \"openrouter/free\"\n)",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_TAGLINE",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "APP_TAGLINE = \"Inspect. Validate. Understand AI API Data.\"\nOPENROUTER_API_KEY = os.getenv(\n    \"OPENROUTER_API_KEY\"\n)\nOPENROUTER_BASE_URL = \"https://openrouter.ai/api/v1\"\nDEFAULT_MODEL = os.getenv(\n    \"DEFAULT_MODEL\",\n    \"openrouter/free\"\n)\nAPP_ENV = os.getenv(",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_API_KEY",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "OPENROUTER_API_KEY = os.getenv(\n    \"OPENROUTER_API_KEY\"\n)\nOPENROUTER_BASE_URL = \"https://openrouter.ai/api/v1\"\nDEFAULT_MODEL = os.getenv(\n    \"DEFAULT_MODEL\",\n    \"openrouter/free\"\n)\nAPP_ENV = os.getenv(\n    \"APP_ENV\",",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "OPENROUTER_BASE_URL",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "OPENROUTER_BASE_URL = \"https://openrouter.ai/api/v1\"\nDEFAULT_MODEL = os.getenv(\n    \"DEFAULT_MODEL\",\n    \"openrouter/free\"\n)\nAPP_ENV = os.getenv(\n    \"APP_ENV\",\n    \"development\"\n)\ndef validate_config():",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "DEFAULT_MODEL = os.getenv(\n    \"DEFAULT_MODEL\",\n    \"openrouter/free\"\n)\nAPP_ENV = os.getenv(\n    \"APP_ENV\",\n    \"development\"\n)\ndef validate_config():\n    \"\"\"",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APP_ENV",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "APP_ENV = os.getenv(\n    \"APP_ENV\",\n    \"development\"\n)\ndef validate_config():\n    \"\"\"\n    Validate required application configuration.\n    Returns:\n        list: A list of configuration errors.\n              An empty list means configuration is valid.",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "kind": 2,
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "peekOfCode": "def build_chat_payload(\n    model: str,\n    system_prompt: str,\n    user_prompt: str,\n    temperature: float = 0.3,\n    max_tokens: int = 500,\n) -> Dict[str, Any]:\n    return {\n        \"model\": model,\n        \"messages\": [",
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "parse_llm_response",
+        "kind": 2,
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "peekOfCode": "def parse_llm_response(\n    response: Dict[str, Any]\n) -> str:\n    if not isinstance(response, dict):\n        raise ValueError(\n            \"Response must be a dictionary.\"\n        )\n    choices = response.get(\"choices\")\n    if choices is None:\n        raise ValueError(",
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "extract_response_metadata",
+        "kind": 2,
+        "importPath": "response_parser",
+        "description": "response_parser",
+        "peekOfCode": "def extract_response_metadata(\n    response: Dict[str, Any]\n) -> Dict[str, Any]:\n    usage = response.get(\n        \"usage\",\n        {}\n    )\n    if not isinstance(usage, dict):\n        usage = {}\n    return {",
+        "detail": "response_parser",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "test_api",
+        "description": "test_api",
+        "peekOfCode": "payload = build_chat_payload(\n    model=DEFAULT_MODEL,\n    system_prompt=(\n        \"You are a helpful assistant. \"\n        \"Answer clearly and briefly.\"\n    ),\n    user_prompt=(\n        \"Explain JSON payloads in simple words.\"\n    ),\n    temperature=0.2,",
+        "detail": "test_api",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "test_api",
+        "description": "test_api",
+        "peekOfCode": "result = send_llm_request(\n    payload\n)\nprint(\"\\nSUCCESS:\")\nprint(result[\"success\"])\nprint(\"\\nSTAGE:\")\nprint(result[\"stage\"])\nprint(\"\\nERRORS:\")\nprint(result[\"errors\"])\nif result[\"success\"]:",
+        "detail": "test_api",
+        "documentation": {}
+    },
+    {
+        "label": "valid_payload",
+        "kind": 5,
+        "importPath": "test_cases",
+        "description": "test_cases",
+        "peekOfCode": "valid_payload = {\n    \"model\": \"openrouter/free\",\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"Explain APIs simply.\"\n        }\n    ],\n    \"temperature\": 0.3,\n    \"max_tokens\": 300,",
+        "detail": "test_cases",
+        "documentation": {}
+    },
+    {
+        "label": "errors",
+        "kind": 5,
+        "importPath": "test_cases",
+        "description": "test_cases",
+        "peekOfCode": "errors = validate_payload(valid_payload)\nprint(\"Errors:\", errors)",
+        "detail": "test_cases",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "test_payload",
+        "description": "test_payload",
+        "peekOfCode": "payload = build_chat_payload(\n    model=\"openrouter/free\",\n    system_prompt=\"You are a helpful AI assistant.\",\n    user_prompt=\"Explain JSON payloads simply.\",\n    temperature=0.2,\n    max_tokens=300,\n)\nprint(\"\\nPYTHON PAYLOAD:\\n\")\nprint(payload)\nprint(\"\\nFORMATTED JSON PAYLOAD:\\n\")",
+        "detail": "test_payload",
+        "documentation": {}
+    },
+    {
+        "label": "valid_response",
+        "kind": 5,
+        "importPath": "test_response",
+        "description": "test_response",
+        "peekOfCode": "valid_response = {\n    \"id\": \"response_123\",\n    \"model\": \"demo-model\",\n    \"choices\": [\n        {\n            \"index\": 0,\n            \"message\": {\n                \"role\": \"assistant\",\n                \"content\": \"JSON is a structured data format.\"\n            }",
+        "detail": "test_response",
+        "documentation": {}
+    },
+    {
+        "label": "invalid_response",
+        "kind": 5,
+        "importPath": "test_response",
+        "description": "test_response",
+        "peekOfCode": "invalid_response = {\n    \"id\": \"response_456\",\n    \"choices\": [\n        {\n            \"message\": {\n                \"role\": \"assistant\"\n            }\n        }\n    ]\n}",
+        "detail": "test_response",
+        "documentation": {}
+    },
+    {
+        "label": "valid_payload",
+        "kind": 5,
+        "importPath": "test_validation",
+        "description": "test_validation",
+        "peekOfCode": "valid_payload = build_chat_payload(\n    model=\"openrouter/free\",\n    system_prompt=\"You are helpful.\",\n    user_prompt=\"Explain APIs.\",\n)\nvalid_errors = validate_payload(\n    valid_payload\n)\nprint(\"\\nVALID PAYLOAD ERRORS:\")\nprint(valid_errors)",
+        "detail": "test_validation",
+        "documentation": {}
+    },
+    {
+        "label": "valid_errors",
+        "kind": 5,
+        "importPath": "test_validation",
+        "description": "test_validation",
+        "peekOfCode": "valid_errors = validate_payload(\n    valid_payload\n)\nprint(\"\\nVALID PAYLOAD ERRORS:\")\nprint(valid_errors)\ninvalid_payload = {\n    \"model\": \"\",\n    \"messages\": [],\n    \"temperature\": \"high\",\n    \"max_tokens\": -10,",
+        "detail": "test_validation",
+        "documentation": {}
+    },
+    {
+        "label": "invalid_payload",
+        "kind": 5,
+        "importPath": "test_validation",
+        "description": "test_validation",
+        "peekOfCode": "invalid_payload = {\n    \"model\": \"\",\n    \"messages\": [],\n    \"temperature\": \"high\",\n    \"max_tokens\": -10,\n}\ninvalid_errors = validate_payload(\n    invalid_payload\n)\nprint(\"\\nINVALID PAYLOAD ERRORS:\")",
+        "detail": "test_validation",
+        "documentation": {}
+    },
+    {
+        "label": "invalid_errors",
+        "kind": 5,
+        "importPath": "test_validation",
+        "description": "test_validation",
+        "peekOfCode": "invalid_errors = validate_payload(\n    invalid_payload\n)\nprint(\"\\nINVALID PAYLOAD ERRORS:\")\nfor error in invalid_errors:\n    print(\"-\", error)",
+        "detail": "test_validation",
+        "documentation": {}
+    },
+    {
+        "label": "validate_payload",
+        "kind": 2,
+        "importPath": "validators",
+        "description": "validators",
+        "peekOfCode": "def validate_payload(\n    payload: Dict[str, Any]\n) -> List[str]:\n    \"\"\"\n    Validate expected fields in an LLM request payload.\n    Returns a list of validation errors.\n    An empty list means the payload is valid.\n    \"\"\"\n    errors = []\n    if not isinstance(payload, dict):",
+        "detail": "validators",
+        "documentation": {}
+    }
+]

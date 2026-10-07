@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "note": "Patient reports mild shortness of breath and cough for two days. No chest pain."
+  },
+  {
+    "id": 2,
+    "note": "Patient presents with fatigue, increased thirst, and frequent urination."
+  },
+  {
+    "id": 3,
+    "note": "Patient has a mild headache and dizziness after standing quickly."
+  },
+  {
+    "id": 4,
+    "note": "Patient reports lower back discomfort after lifting a heavy object."
+  },
+  {
+    "id": 5,
+    "note": "Patient presents with sore throat, low-grade fever, and nasal congestion."
+  },
+  {
+    "id": 6,
+    "note": "Patient reports nausea and mild abdominal discomfort after a meal."
+  },
+  {
+    "id": 7,
+    "note": "Patient reports difficulty sleeping and daytime tiredness."
+  },
+  {
+    "id": 8,
+    "note": "Patient presents with mild ankle swelling after prolonged standing."
+  },
+  {
+    "id": 9,
+    "note": "Patient reports occasional palpitations without chest pain."
+  },
+  {
+    "id": 10,
+    "note": "Patient presents with mild cough and wheezing during exercise."
+  },
+  {
+    "id": 11,
+    "note": "Patient reports intermittent knee pain when climbing stairs."
+  },
+  {
+    "id": 12,
+    "note": "Patient has reduced appetite and mild nausea for one day."
+  },
+  {
+    "id": 13,
+    "note": "Patient reports eye irritation and watering after dust exposure."
+  },
+  {
+    "id": 14,
+    "note": "Patient presents with mild fever and body aches."
+  },
+  {
+    "id": 15,
+    "note": "Patient reports neck stiffness after prolonged computer use."
+  },
+  {
+    "id": 16,
+    "note": "Patient presents with mild abdominal bloating and constipation."
+  },
+  {
+    "id": 17,
+    "note": "Patient reports tingling in fingers after prolonged wrist use."
+  },
+  {
+    "id": 18,
+    "note": "Patient has mild ear discomfort and reduced hearing."
+  },
+  {
+    "id": 19,
+    "note": "Patient reports increased tiredness during routine activities."
+  },
+  {
+    "id": 20,
+    "note": "Patient presents with mild skin itching without visible rash."
+  },
+  {
+    "id": 21,
+    "note": "Patient reports mild burning sensation during urination."
+  },
+  {
+    "id": 22,
+    "note": "Patient presents with mild chest congestion and productive cough."
+  },
+  {
+    "id": 23,
+    "note": "Patient reports muscle soreness after increased physical activity."
+  },
+  {
+    "id": 24,
+    "note": "Patient presents with occasional dizziness and reduced fluid intake."
+  },
+  {
+    "id": 25,
+    "note": "Patient reports mild abdominal cramps and loose stools."
+  },
+  {
+    "id": 26,
+    "note": "Patient presents with nasal congestion and facial pressure."
+  },
+  {
+    "id": 27,
+    "note": "Patient reports mild shoulder pain with overhead movement."
+  },
+  {
+    "id": 28,
+    "note": "Patient presents with dry cough and throat irritation."
+  },
+  {
+    "id": 29,
+    "note": "Patient reports mild heartburn after spicy meals."
+  },
+  {
+    "id": 30,
+    "note": "Patient presents with tiredness and difficulty concentrating."
+  },
+  {
+    "id": 31,
+    "note": "Patient reports mild calf discomfort after prolonged walking."
+  },
+  {
+    "id": 32,
+    "note": "Patient presents with occasional headaches during stressful periods."
+  },
+  {
+    "id": 33,
+    "note": "Patient reports mild wrist discomfort after repetitive typing."
+  },
+  {
+    "id": 34,
+    "note": "Patient presents with reduced appetite and mild weakness."
+  },
+  {
+    "id": 35,
+    "note": "Patient reports mild throat dryness and intermittent cough."
+  },
+  {
+    "id": 36,
+    "note": "Patient presents with mild joint stiffness in the morning."
+  },
+  {
+    "id": 37,
+    "note": "Patient reports occasional bloating after dairy products."
+  },
+  {
+    "id": 38,
+    "note": "Patient presents with mild sinus pressure and nasal discharge."
+  },
+  {
+    "id": 39,
+    "note": "Patient reports mild foot discomfort after prolonged standing."
+  },
+  {
+    "id": 40,
+    "note": "Patient presents with tiredness after several nights of poor sleep."
+  },
+  {
+    "id": 41,
+    "note": "Patient reports mild indigestion after a large meal."
+  },
+  {
+    "id": 42,
+    "note": "Patient presents with mild elbow discomfort after repetitive lifting."
+  },
+  {
+    "id": 43,
+    "note": "Patient reports occasional dry eyes after long screen use."
+  },
+  {
+    "id": 44,
+    "note": "Patient presents with mild sore throat without fever."
+  },
+  {
+    "id": 45,
+    "note": "Patient reports mild fatigue after increased workload."
+  },
+  {
+    "id": 46,
+    "note": "Patient presents with occasional mild nausea in the morning."
+  },
+  {
+    "id": 47,
+    "note": "Patient reports mild ankle discomfort after exercise."
+  },
+  {
+    "id": 48,
+    "note": "Patient presents with mild cough and nasal congestion."
+  },
+  {
+    "id": 49,
+    "note": "Patient reports mild dizziness after skipping breakfast."
+  },
+  {
+    "id": 50,
+    "note": "Patient presents with mild fatigue and reduced sleep."
+  }
+]

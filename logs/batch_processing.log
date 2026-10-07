@@ -1,0 +1,393 @@
+2026-10-07 16:48:00,612 | INFO | Batch processing test started.
+2026-10-07 16:48:00,613 | WARNING | Simulated rate limit warning.
+2026-10-07 16:48:00,613 | ERROR | Simulated API failure.
+2026-10-07 17:32:14,171 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:14,172 | INFO | Retry scheduled | wait=0.58s
+2026-10-07 17:32:14,758 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:14,758 | INFO | Retry scheduled | wait=1.90s
+2026-10-07 17:32:16,659 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:16,661 | INFO | Retry scheduled | wait=2.54s
+2026-10-07 17:32:19,199 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:19,203 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:32:25,758 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:25,759 | INFO | Retry scheduled | wait=0.76s
+2026-10-07 17:32:26,535 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:26,535 | INFO | Retry scheduled | wait=1.59s
+2026-10-07 17:32:28,124 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:28,125 | INFO | Retry scheduled | wait=2.55s
+2026-10-07 17:32:30,679 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:30,679 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:32:34,681 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:34,682 | INFO | Retry scheduled | wait=1.29s
+2026-10-07 17:32:36,012 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:36,012 | INFO | Retry scheduled | wait=1.54s
+2026-10-07 17:32:37,554 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:37,555 | INFO | Retry scheduled | wait=2.23s
+2026-10-07 17:32:39,785 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:39,786 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:32:43,573 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:43,574 | INFO | Retry scheduled | wait=0.65s
+2026-10-07 17:32:44,283 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:44,284 | INFO | Retry scheduled | wait=1.49s
+2026-10-07 17:32:45,775 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:45,775 | INFO | Retry scheduled | wait=2.52s
+2026-10-07 17:32:48,298 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:32:48,299 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:33:22,740 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:22,741 | INFO | Retry scheduled | wait=1.38s
+2026-10-07 17:33:24,124 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:24,124 | INFO | Retry scheduled | wait=1.41s
+2026-10-07 17:33:25,533 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:25,533 | INFO | Retry scheduled | wait=2.11s
+2026-10-07 17:33:27,641 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:27,642 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:33:36,307 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:36,308 | INFO | Retry scheduled | wait=1.37s
+2026-10-07 17:33:37,732 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:37,732 | INFO | Retry scheduled | wait=1.92s
+2026-10-07 17:33:39,649 | WARNING | Temporary failure | attempt=3 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:39,649 | INFO | Retry scheduled | wait=2.94s
+2026-10-07 17:33:42,586 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:33:42,587 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:35:16,378 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:35:16,378 | INFO | Retry scheduled | wait=0.95s
+2026-10-07 17:35:17,327 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429 rate limit.
+2026-10-07 17:35:17,327 | INFO | Retry scheduled | wait=1.94s
+2026-10-07 17:49:11,336 | INFO | Batch started | total_notes=50 | already_completed=0
+2026-10-07 17:49:11,336 | INFO | Processing note | note_id=1
+2026-10-07 17:49:11,337 | INFO | Note completed | note_id=1
+2026-10-07 17:49:11,338 | INFO | Processing note | note_id=2
+2026-10-07 17:49:11,339 | INFO | Note completed | note_id=2
+2026-10-07 17:49:11,339 | INFO | Processing note | note_id=3
+2026-10-07 17:49:11,340 | INFO | Note completed | note_id=3
+2026-10-07 17:49:11,340 | INFO | Processing note | note_id=4
+2026-10-07 17:49:11,341 | INFO | Note completed | note_id=4
+2026-10-07 17:49:11,341 | INFO | Processing note | note_id=5
+2026-10-07 17:49:11,342 | INFO | Note completed | note_id=5
+2026-10-07 17:49:11,342 | INFO | Processing note | note_id=6
+2026-10-07 17:49:11,343 | INFO | Note completed | note_id=6
+2026-10-07 17:49:11,343 | INFO | Processing note | note_id=7
+2026-10-07 17:49:11,344 | INFO | Note completed | note_id=7
+2026-10-07 17:49:11,344 | INFO | Processing note | note_id=8
+2026-10-07 17:49:11,344 | WARNING | Temporary failure | attempt=1 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:11,344 | INFO | Retry scheduled | wait=0.24s
+2026-10-07 17:49:11,589 | INFO | Note completed | note_id=8
+2026-10-07 17:49:11,589 | INFO | Processing note | note_id=9
+2026-10-07 17:49:11,591 | INFO | Note completed | note_id=9
+2026-10-07 17:49:11,591 | INFO | Processing note | note_id=10
+2026-10-07 17:49:11,591 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:11,591 | INFO | Retry scheduled | wait=0.72s
+2026-10-07 17:49:12,341 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:12,341 | INFO | Retry scheduled | wait=1.18s
+2026-10-07 17:49:13,536 | INFO | Note completed | note_id=10
+2026-10-07 17:49:13,536 | INFO | Processing note | note_id=11
+2026-10-07 17:49:13,545 | INFO | Note completed | note_id=11
+2026-10-07 17:49:13,545 | INFO | Processing note | note_id=12
+2026-10-07 17:49:13,545 | WARNING | Temporary failure | attempt=1 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:13,546 | INFO | Retry scheduled | wait=0.99s
+2026-10-07 17:49:14,563 | INFO | Note completed | note_id=12
+2026-10-07 17:49:14,563 | INFO | Processing note | note_id=13
+2026-10-07 17:49:14,563 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:14,564 | INFO | Retry scheduled | wait=0.43s
+2026-10-07 17:49:15,011 | INFO | Note completed | note_id=13
+2026-10-07 17:49:15,011 | INFO | Processing note | note_id=14
+2026-10-07 17:49:15,012 | WARNING | Temporary failure | attempt=1 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:15,012 | INFO | Retry scheduled | wait=0.31s
+2026-10-07 17:49:15,322 | INFO | Note completed | note_id=14
+2026-10-07 17:49:15,323 | INFO | Processing note | note_id=15
+2026-10-07 17:49:15,323 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:15,323 | INFO | Retry scheduled | wait=0.29s
+2026-10-07 17:49:15,612 | INFO | Note completed | note_id=15
+2026-10-07 17:49:15,613 | INFO | Processing note | note_id=16
+2026-10-07 17:49:15,613 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:15,613 | INFO | Retry scheduled | wait=0.63s
+2026-10-07 17:49:16,241 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:16,241 | INFO | Retry scheduled | wait=0.89s
+2026-10-07 17:49:17,134 | WARNING | Temporary failure | attempt=3 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:17,135 | INFO | Retry scheduled | wait=1.38s
+2026-10-07 17:49:18,518 | WARNING | Temporary failure | attempt=4 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:18,518 | ERROR | Maximum retries reached | error=SimulatedServerError
+2026-10-07 17:49:18,518 | ERROR | Note failed | note_id=16 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:18,520 | INFO | Processing note | note_id=17
+2026-10-07 17:49:18,520 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:18,520 | INFO | Retry scheduled | wait=0.78s
+2026-10-07 17:49:19,299 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:19,299 | INFO | Retry scheduled | wait=0.91s
+2026-10-07 17:49:20,216 | WARNING | Temporary failure | attempt=3 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:20,217 | INFO | Retry scheduled | wait=1.36s
+2026-10-07 17:49:21,580 | INFO | Note completed | note_id=17
+2026-10-07 17:49:21,580 | INFO | Processing note | note_id=18
+2026-10-07 17:49:21,582 | INFO | Note completed | note_id=18
+2026-10-07 17:49:21,582 | INFO | Processing note | note_id=19
+2026-10-07 17:49:21,582 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:21,582 | INFO | Retry scheduled | wait=0.78s
+2026-10-07 17:49:22,362 | INFO | Note completed | note_id=19
+2026-10-07 17:49:22,362 | INFO | Processing note | note_id=20
+2026-10-07 17:49:22,362 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:22,362 | INFO | Retry scheduled | wait=0.39s
+2026-10-07 17:49:22,755 | INFO | Note completed | note_id=20
+2026-10-07 17:49:22,756 | INFO | Processing note | note_id=21
+2026-10-07 17:49:22,757 | INFO | Note completed | note_id=21
+2026-10-07 17:49:22,757 | INFO | Processing note | note_id=22
+2026-10-07 17:49:22,757 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:22,757 | INFO | Retry scheduled | wait=0.97s
+2026-10-07 17:49:23,725 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:23,725 | INFO | Retry scheduled | wait=0.73s
+2026-10-07 17:49:24,454 | INFO | Note completed | note_id=22
+2026-10-07 17:49:24,454 | INFO | Processing note | note_id=23
+2026-10-07 17:49:24,454 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:24,454 | INFO | Retry scheduled | wait=0.63s
+2026-10-07 17:49:25,084 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:25,085 | INFO | Retry scheduled | wait=0.39s
+2026-10-07 17:49:25,472 | INFO | Note completed | note_id=23
+2026-10-07 17:49:25,472 | INFO | Processing note | note_id=24
+2026-10-07 17:49:25,474 | INFO | Note completed | note_id=24
+2026-10-07 17:49:25,474 | INFO | Processing note | note_id=25
+2026-10-07 17:49:25,475 | INFO | Note completed | note_id=25
+2026-10-07 17:49:25,475 | INFO | Processing note | note_id=26
+2026-10-07 17:49:25,476 | INFO | Note completed | note_id=26
+2026-10-07 17:49:25,477 | INFO | Processing note | note_id=27
+2026-10-07 17:49:25,478 | INFO | Note completed | note_id=27
+2026-10-07 17:49:25,478 | INFO | Processing note | note_id=28
+2026-10-07 17:49:25,479 | INFO | Note completed | note_id=28
+2026-10-07 17:49:25,479 | INFO | Processing note | note_id=29
+2026-10-07 17:49:25,481 | INFO | Note completed | note_id=29
+2026-10-07 17:49:25,481 | INFO | Processing note | note_id=30
+2026-10-07 17:49:25,482 | INFO | Note completed | note_id=30
+2026-10-07 17:49:25,482 | INFO | Processing note | note_id=31
+2026-10-07 17:49:25,483 | INFO | Note completed | note_id=31
+2026-10-07 17:49:25,484 | INFO | Processing note | note_id=32
+2026-10-07 17:49:25,485 | INFO | Note completed | note_id=32
+2026-10-07 17:49:25,485 | INFO | Processing note | note_id=33
+2026-10-07 17:49:25,485 | WARNING | Temporary failure | attempt=1 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:25,485 | INFO | Retry scheduled | wait=1.07s
+2026-10-07 17:49:26,559 | INFO | Note completed | note_id=33
+2026-10-07 17:49:26,560 | INFO | Processing note | note_id=34
+2026-10-07 17:49:26,561 | INFO | Note completed | note_id=34
+2026-10-07 17:49:26,561 | INFO | Processing note | note_id=35
+2026-10-07 17:49:26,561 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:26,561 | INFO | Retry scheduled | wait=0.53s
+2026-10-07 17:49:27,089 | INFO | Note completed | note_id=35
+2026-10-07 17:49:27,089 | INFO | Processing note | note_id=36
+2026-10-07 17:49:27,089 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:27,090 | INFO | Retry scheduled | wait=0.49s
+2026-10-07 17:49:27,585 | INFO | Note completed | note_id=36
+2026-10-07 17:49:27,585 | INFO | Processing note | note_id=37
+2026-10-07 17:49:27,586 | INFO | Note completed | note_id=37
+2026-10-07 17:49:27,586 | INFO | Processing note | note_id=38
+2026-10-07 17:49:27,588 | INFO | Note completed | note_id=38
+2026-10-07 17:49:27,588 | INFO | Processing note | note_id=39
+2026-10-07 17:49:27,588 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:27,588 | INFO | Retry scheduled | wait=0.50s
+2026-10-07 17:49:28,086 | INFO | Note completed | note_id=39
+2026-10-07 17:49:28,086 | INFO | Processing note | note_id=40
+2026-10-07 17:49:28,086 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:28,086 | INFO | Retry scheduled | wait=1.04s
+2026-10-07 17:49:29,134 | INFO | Note completed | note_id=40
+2026-10-07 17:49:29,134 | INFO | Processing note | note_id=41
+2026-10-07 17:49:29,134 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:29,134 | INFO | Retry scheduled | wait=0.24s
+2026-10-07 17:49:29,379 | WARNING | Temporary failure | attempt=2 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:29,379 | INFO | Retry scheduled | wait=1.15s
+2026-10-07 17:49:30,529 | INFO | Note completed | note_id=41
+2026-10-07 17:49:30,529 | INFO | Processing note | note_id=42
+2026-10-07 17:49:30,530 | INFO | Note completed | note_id=42
+2026-10-07 17:49:30,531 | INFO | Processing note | note_id=43
+2026-10-07 17:49:30,531 | WARNING | Temporary failure | attempt=1 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:30,531 | INFO | Retry scheduled | wait=0.49s
+2026-10-07 17:49:31,022 | WARNING | Temporary failure | attempt=2 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:31,023 | INFO | Retry scheduled | wait=0.46s
+2026-10-07 17:49:31,480 | INFO | Note completed | note_id=43
+2026-10-07 17:49:31,481 | INFO | Processing note | note_id=44
+2026-10-07 17:49:31,482 | INFO | Note completed | note_id=44
+2026-10-07 17:49:31,482 | INFO | Processing note | note_id=45
+2026-10-07 17:49:31,483 | INFO | Note completed | note_id=45
+2026-10-07 17:49:31,484 | INFO | Processing note | note_id=46
+2026-10-07 17:49:31,484 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:31,484 | INFO | Retry scheduled | wait=0.12s
+2026-10-07 17:49:31,604 | WARNING | Temporary failure | attempt=2 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:31,604 | INFO | Retry scheduled | wait=0.68s
+2026-10-07 17:49:32,283 | INFO | Note completed | note_id=46
+2026-10-07 17:49:32,284 | INFO | Processing note | note_id=47
+2026-10-07 17:49:32,284 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:32,284 | INFO | Retry scheduled | wait=0.25s
+2026-10-07 17:49:32,535 | WARNING | Temporary failure | attempt=2 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:32,535 | INFO | Retry scheduled | wait=0.24s
+2026-10-07 17:49:32,779 | WARNING | Temporary failure | attempt=3 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:32,779 | INFO | Retry scheduled | wait=1.31s
+2026-10-07 17:49:34,085 | WARNING | Temporary failure | attempt=4 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:34,085 | ERROR | Maximum retries reached | error=SimulatedRateLimitError
+2026-10-07 17:49:34,086 | ERROR | Note failed | note_id=47 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:34,087 | INFO | Processing note | note_id=48
+2026-10-07 17:49:34,088 | INFO | Note completed | note_id=48
+2026-10-07 17:49:34,089 | INFO | Processing note | note_id=49
+2026-10-07 17:49:34,089 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:34,089 | INFO | Retry scheduled | wait=0.30s
+2026-10-07 17:49:34,388 | WARNING | Temporary failure | attempt=2 | error=SimulatedServerError | message=Simulated HTTP 503.
+2026-10-07 17:49:34,389 | INFO | Retry scheduled | wait=0.86s
+2026-10-07 17:49:35,253 | INFO | Note completed | note_id=49
+2026-10-07 17:49:35,254 | INFO | Processing note | note_id=50
+2026-10-07 17:49:35,254 | WARNING | Temporary failure | attempt=1 | error=SimulatedRateLimitError | message=Simulated HTTP 429.
+2026-10-07 17:49:35,254 | INFO | Retry scheduled | wait=0.23s
+2026-10-07 17:49:35,482 | WARNING | Temporary failure | attempt=2 | error=SimulatedTimeoutError | message=Simulated timeout.
+2026-10-07 17:49:35,483 | INFO | Retry scheduled | wait=0.55s
+2026-10-07 17:49:36,031 | INFO | Note completed | note_id=50
+2026-10-07 17:49:36,031 | INFO | Batch processing finished.
+2026-10-07 18:27:28,512 | INFO | Batch started | mode=simulation | total_notes=50 | already_completed=48
+2026-10-07 18:27:28,513 | INFO | Skipping completed note | note_id=1
+2026-10-07 18:27:28,514 | INFO | Skipping completed note | note_id=2
+2026-10-07 18:27:28,514 | INFO | Skipping completed note | note_id=3
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=4
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=5
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=6
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=7
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=8
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=9
+2026-10-07 18:27:28,515 | INFO | Skipping completed note | note_id=10
+2026-10-07 18:27:28,516 | INFO | Skipping completed note | note_id=11
+2026-10-07 18:27:28,516 | INFO | Skipping completed note | note_id=12
+2026-10-07 18:27:28,516 | INFO | Skipping completed note | note_id=13
+2026-10-07 18:27:28,516 | INFO | Skipping completed note | note_id=14
+2026-10-07 18:27:28,516 | INFO | Skipping completed note | note_id=15
+2026-10-07 18:27:28,517 | INFO | Processing note | note_id=16 | mode=simulation
+2026-10-07 18:27:28,522 | INFO | Note completed | note_id=16
+2026-10-07 18:27:28,522 | INFO | Skipping completed note | note_id=17
+2026-10-07 18:27:28,522 | INFO | Skipping completed note | note_id=18
+2026-10-07 18:27:28,523 | INFO | Skipping completed note | note_id=19
+2026-10-07 18:27:28,523 | INFO | Skipping completed note | note_id=20
+2026-10-07 18:27:28,523 | INFO | Skipping completed note | note_id=21
+2026-10-07 18:27:28,523 | INFO | Skipping completed note | note_id=22
+2026-10-07 18:27:28,524 | INFO | Skipping completed note | note_id=23
+2026-10-07 18:27:28,524 | INFO | Skipping completed note | note_id=24
+2026-10-07 18:27:28,524 | INFO | Skipping completed note | note_id=25
+2026-10-07 18:27:28,524 | INFO | Skipping completed note | note_id=26
+2026-10-07 18:27:28,525 | INFO | Skipping completed note | note_id=27
+2026-10-07 18:27:28,525 | INFO | Skipping completed note | note_id=28
+2026-10-07 18:27:28,525 | INFO | Skipping completed note | note_id=29
+2026-10-07 18:27:28,525 | INFO | Skipping completed note | note_id=30
+2026-10-07 18:27:28,525 | INFO | Skipping completed note | note_id=31
+2026-10-07 18:27:28,526 | INFO | Skipping completed note | note_id=32
+2026-10-07 18:27:28,526 | INFO | Skipping completed note | note_id=33
+2026-10-07 18:27:28,526 | INFO | Skipping completed note | note_id=34
+2026-10-07 18:27:28,526 | INFO | Skipping completed note | note_id=35
+2026-10-07 18:27:28,526 | INFO | Skipping completed note | note_id=36
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=37
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=38
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=39
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=40
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=41
+2026-10-07 18:27:28,527 | INFO | Skipping completed note | note_id=42
+2026-10-07 18:27:28,528 | INFO | Skipping completed note | note_id=43
+2026-10-07 18:27:28,528 | INFO | Skipping completed note | note_id=44
+2026-10-07 18:27:28,528 | INFO | Skipping completed note | note_id=45
+2026-10-07 18:27:28,528 | INFO | Skipping completed note | note_id=46
+2026-10-07 18:27:28,528 | INFO | Processing note | note_id=47 | mode=simulation
+2026-10-07 18:27:28,531 | INFO | Note completed | note_id=47
+2026-10-07 18:27:28,532 | INFO | Skipping completed note | note_id=48
+2026-10-07 18:27:28,532 | INFO | Skipping completed note | note_id=49
+2026-10-07 18:27:28,532 | INFO | Skipping completed note | note_id=50
+2026-10-07 18:27:28,532 | INFO | Batch processing finished | completed=50 | failed=0
+2026-10-07 18:28:09,710 | INFO | Batch started | mode=live | total_notes=50 | already_completed=50
+2026-10-07 18:28:09,710 | INFO | Skipping completed note | note_id=1
+2026-10-07 18:28:09,710 | INFO | Skipping completed note | note_id=2
+2026-10-07 18:28:09,710 | INFO | Skipping completed note | note_id=3
+2026-10-07 18:28:09,711 | INFO | Skipping completed note | note_id=4
+2026-10-07 18:28:09,711 | INFO | Skipping completed note | note_id=5
+2026-10-07 18:28:09,711 | INFO | Skipping completed note | note_id=6
+2026-10-07 18:28:09,711 | INFO | Skipping completed note | note_id=7
+2026-10-07 18:28:09,711 | INFO | Skipping completed note | note_id=8
+2026-10-07 18:28:09,712 | INFO | Skipping completed note | note_id=9
+2026-10-07 18:28:09,712 | INFO | Skipping completed note | note_id=10
+2026-10-07 18:28:09,712 | INFO | Skipping completed note | note_id=11
+2026-10-07 18:28:09,712 | INFO | Skipping completed note | note_id=12
+2026-10-07 18:28:09,712 | INFO | Skipping completed note | note_id=13
+2026-10-07 18:28:09,713 | INFO | Skipping completed note | note_id=14
+2026-10-07 18:28:09,713 | INFO | Skipping completed note | note_id=15
+2026-10-07 18:28:09,713 | INFO | Skipping completed note | note_id=16
+2026-10-07 18:28:09,713 | INFO | Skipping completed note | note_id=17
+2026-10-07 18:28:09,714 | INFO | Skipping completed note | note_id=18
+2026-10-07 18:28:09,714 | INFO | Skipping completed note | note_id=19
+2026-10-07 18:28:09,714 | INFO | Skipping completed note | note_id=20
+2026-10-07 18:28:09,714 | INFO | Skipping completed note | note_id=21
+2026-10-07 18:28:09,714 | INFO | Skipping completed note | note_id=22
+2026-10-07 18:28:09,715 | INFO | Skipping completed note | note_id=23
+2026-10-07 18:28:09,715 | INFO | Skipping completed note | note_id=24
+2026-10-07 18:28:09,715 | INFO | Skipping completed note | note_id=25
+2026-10-07 18:28:09,716 | INFO | Skipping completed note | note_id=26
+2026-10-07 18:28:09,716 | INFO | Skipping completed note | note_id=27
+2026-10-07 18:28:09,716 | INFO | Skipping completed note | note_id=28
+2026-10-07 18:28:09,716 | INFO | Skipping completed note | note_id=29
+2026-10-07 18:28:09,716 | INFO | Skipping completed note | note_id=30
+2026-10-07 18:28:09,717 | INFO | Skipping completed note | note_id=31
+2026-10-07 18:28:09,717 | INFO | Skipping completed note | note_id=32
+2026-10-07 18:28:09,717 | INFO | Skipping completed note | note_id=33
+2026-10-07 18:28:09,718 | INFO | Skipping completed note | note_id=34
+2026-10-07 18:28:09,718 | INFO | Skipping completed note | note_id=35
+2026-10-07 18:28:09,718 | INFO | Skipping completed note | note_id=36
+2026-10-07 18:28:09,718 | INFO | Skipping completed note | note_id=37
+2026-10-07 18:28:09,718 | INFO | Skipping completed note | note_id=38
+2026-10-07 18:28:09,719 | INFO | Skipping completed note | note_id=39
+2026-10-07 18:28:09,719 | INFO | Skipping completed note | note_id=40
+2026-10-07 18:28:09,719 | INFO | Skipping completed note | note_id=41
+2026-10-07 18:28:09,719 | INFO | Skipping completed note | note_id=42
+2026-10-07 18:28:09,720 | INFO | Skipping completed note | note_id=43
+2026-10-07 18:28:09,720 | INFO | Skipping completed note | note_id=44
+2026-10-07 18:28:09,720 | INFO | Skipping completed note | note_id=45
+2026-10-07 18:28:09,720 | INFO | Skipping completed note | note_id=46
+2026-10-07 18:28:09,721 | INFO | Skipping completed note | note_id=47
+2026-10-07 18:28:09,721 | INFO | Skipping completed note | note_id=48
+2026-10-07 18:28:09,721 | INFO | Skipping completed note | note_id=49
+2026-10-07 18:28:09,721 | INFO | Skipping completed note | note_id=50
+2026-10-07 18:28:09,722 | INFO | Batch processing finished | completed=50 | failed=0
+2026-10-07 18:58:44,679 | INFO | Batch started | mode=simulation | total_notes=50 | already_completed=50
+2026-10-07 18:58:44,680 | INFO | Skipping completed note | note_id=1
+2026-10-07 18:58:44,680 | INFO | Skipping completed note | note_id=2
+2026-10-07 18:58:44,681 | INFO | Skipping completed note | note_id=3
+2026-10-07 18:58:44,681 | INFO | Skipping completed note | note_id=4
+2026-10-07 18:58:44,681 | INFO | Skipping completed note | note_id=5
+2026-10-07 18:58:44,681 | INFO | Skipping completed note | note_id=6
+2026-10-07 18:58:44,682 | INFO | Skipping completed note | note_id=7
+2026-10-07 18:58:44,682 | INFO | Skipping completed note | note_id=8
+2026-10-07 18:58:44,682 | INFO | Skipping completed note | note_id=9
+2026-10-07 18:58:44,682 | INFO | Skipping completed note | note_id=10
+2026-10-07 18:58:44,682 | INFO | Skipping completed note | note_id=11
+2026-10-07 18:58:44,683 | INFO | Skipping completed note | note_id=12
+2026-10-07 18:58:44,683 | INFO | Skipping completed note | note_id=13
+2026-10-07 18:58:44,683 | INFO | Skipping completed note | note_id=14
+2026-10-07 18:58:44,683 | INFO | Skipping completed note | note_id=15
+2026-10-07 18:58:44,684 | INFO | Skipping completed note | note_id=16
+2026-10-07 18:58:44,684 | INFO | Skipping completed note | note_id=17
+2026-10-07 18:58:44,684 | INFO | Skipping completed note | note_id=18
+2026-10-07 18:58:44,684 | INFO | Skipping completed note | note_id=19
+2026-10-07 18:58:44,684 | INFO | Skipping completed note | note_id=20
+2026-10-07 18:58:44,685 | INFO | Skipping completed note | note_id=21
+2026-10-07 18:58:44,685 | INFO | Skipping completed note | note_id=22
+2026-10-07 18:58:44,686 | INFO | Skipping completed note | note_id=23
+2026-10-07 18:58:44,686 | INFO | Skipping completed note | note_id=24
+2026-10-07 18:58:44,686 | INFO | Skipping completed note | note_id=25
+2026-10-07 18:58:44,687 | INFO | Skipping completed note | note_id=26
+2026-10-07 18:58:44,687 | INFO | Skipping completed note | note_id=27
+2026-10-07 18:58:44,687 | INFO | Skipping completed note | note_id=28
+2026-10-07 18:58:44,687 | INFO | Skipping completed note | note_id=29
+2026-10-07 18:58:44,688 | INFO | Skipping completed note | note_id=30
+2026-10-07 18:58:44,688 | INFO | Skipping completed note | note_id=31
+2026-10-07 18:58:44,688 | INFO | Skipping completed note | note_id=32
+2026-10-07 18:58:44,688 | INFO | Skipping completed note | note_id=33
+2026-10-07 18:58:44,689 | INFO | Skipping completed note | note_id=34
+2026-10-07 18:58:44,689 | INFO | Skipping completed note | note_id=35
+2026-10-07 18:58:44,689 | INFO | Skipping completed note | note_id=36
+2026-10-07 18:58:44,689 | INFO | Skipping completed note | note_id=37
+2026-10-07 18:58:44,690 | INFO | Skipping completed note | note_id=38
+2026-10-07 18:58:44,690 | INFO | Skipping completed note | note_id=39
+2026-10-07 18:58:44,690 | INFO | Skipping completed note | note_id=40
+2026-10-07 18:58:44,690 | INFO | Skipping completed note | note_id=41
+2026-10-07 18:58:44,691 | INFO | Skipping completed note | note_id=42
+2026-10-07 18:58:44,691 | INFO | Skipping completed note | note_id=43
+2026-10-07 18:58:44,691 | INFO | Skipping completed note | note_id=44
+2026-10-07 18:58:44,691 | INFO | Skipping completed note | note_id=45
+2026-10-07 18:58:44,691 | INFO | Skipping completed note | note_id=46
+2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=47
+2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=48
+2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=49
+2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=50
+2026-10-07 18:58:44,693 | INFO | Batch processing finished | completed=50 | failed=0
