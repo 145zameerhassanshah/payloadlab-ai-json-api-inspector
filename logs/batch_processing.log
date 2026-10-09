@@ -391,3 +391,25 @@
 2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=49
 2026-10-07 18:58:44,692 | INFO | Skipping completed note | note_id=50
 2026-10-07 18:58:44,693 | INFO | Batch processing finished | completed=50 | failed=0
+2026-10-09 11:33:51,721 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 11:33:57,518 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:30:49,612 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:41:29,826 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:44:15,839 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:44:47,626 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:49:52,276 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:50:45,805 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:52:54,749 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:54:57,917 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 12:55:44,911 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 15:10:30,782 | WARNING | API timeout | attempt=1 | error=HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openrouter.ai', port=443) at 0x21bab329d30>, 'Connection to openrouter.ai timed out. (connect timeout=10.0)'))
+2026-10-09 15:10:30,783 | INFO | Retrying after timeout | wait=1.97s
+2026-10-09 15:10:52,777 | WARNING | API timeout | attempt=2 | error=HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openrouter.ai', port=443) at 0x21babc2da90>, 'Connection to openrouter.ai timed out. (connect timeout=10.0)'))
+2026-10-09 15:10:52,777 | INFO | Retrying after timeout | wait=2.45s
+2026-10-09 15:11:15,249 | WARNING | API timeout | attempt=3 | error=HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openrouter.ai', port=443) at 0x21babc2e350>, 'Connection to openrouter.ai timed out. (connect timeout=10.0)'))
+2026-10-09 15:11:15,250 | INFO | Retrying after timeout | wait=4.40s
+2026-10-09 15:11:32,560 | WARNING | Connection failure | attempt=4 | error=('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-10-09 15:14:36,877 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 15:15:51,979 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 15:15:57,952 | INFO | API request succeeded | status=200 | attempts=1
+2026-10-09 15:17:48,629 | INFO | API request succeeded | status=200 | attempts=1
