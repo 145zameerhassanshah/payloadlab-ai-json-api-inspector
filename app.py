@@ -23,6 +23,15 @@ from utils.checkpoint import (
     load_checkpoint,
     reset_checkpoint,
 )
+from utils.context_utils import (
+    analyze_context,
+    count_tokens,
+)
+from services.context_service import (
+    apply_truncation,
+    apply_chunking,
+    apply_summarization,
+)
 
 
 # --------------------------------------------------
@@ -46,6 +55,10 @@ if "payload" not in st.session_state:
 
 if "result" not in st.session_state:
     st.session_state.result = None
+
+
+if "context_result" not in st.session_state:
+    st.session_state.context_result = None
 
 
 # --------------------------------------------------
@@ -117,6 +130,23 @@ st.markdown(
         text-transform: uppercase;
         margin-bottom: 0.4rem;
     }
+
+    div[data-testid="stMetric"] {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 14px;
+        padding: 0.8rem 1rem;
+    }
+
+    .stButton > button {
+        border-radius: 10px;
+        font-weight: 700;
+        min-height: 42px;
+    }
+
+    div[data-testid="stExpander"] {
+        border-radius: 12px;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -138,6 +168,7 @@ with st.sidebar:
         [
             "JSON Inspector",
             "Batch Reliability",
+            "Context Management",
         ],
     )
 
@@ -162,12 +193,18 @@ with st.sidebar:
             "LLM API requests, parses nested responses, and displays "
             "raw and parsed data."
         )
-    else:
+    elif workspace == "Batch Reliability":
         st.markdown("### Reliability Lab")
         st.caption(
             "Processes a resumable batch of 50 synthetic patient notes "
             "with retry logic, exponential backoff, logging, and "
             "checkpoint recovery."
+        )
+    else:
+        st.markdown("### Context Lab")
+        st.caption(
+            "Counts tokens, calculates context budgets, detects overflow, "
+            "and applies truncation, chunking, or summarization."
         )
 
     st.divider()
@@ -462,11 +499,11 @@ if workspace == "JSON Inspector":
 
 elif workspace == "Batch Reliability":
 
-    st.markdown("## Batch Reliability Lab")
+    st.markdown("## 🛡️ Batch Reliability Lab")
     st.caption(
-        "Process 50 synthetic patient notes safely while handling "
-        "rate limits, timeouts, connection failures, and temporary "
-        "server errors without losing completed work."
+        "Process 50 synthetic patient notes safely. This workspace demonstrates "
+        "rate limits, timeouts, connection failures, temporary server errors, "
+        "and recovery without losing completed work."
     )
 
     checkpoint = load_checkpoint()
@@ -493,7 +530,7 @@ elif workspace == "Batch Reliability":
     st.divider()
 
     with st.container(border=True):
-        st.markdown("### Processing Settings")
+        st.markdown("### ⚙️ Processing Settings")
 
         mode_col, failure_col, retry_col, delay_col = st.columns(4)
 
@@ -556,14 +593,14 @@ elif workspace == "Batch Reliability":
 
     with start_col:
         start_batch = st.button(
-            "Start / Resume Batch",
+            "▶ Start / Resume Batch",
             type="primary",
             use_container_width=True,
         )
 
     with reset_col:
         reset_batch = st.button(
-            "Reset Batch Progress",
+            "↺ Reset Batch Progress",
             use_container_width=True,
         )
 
@@ -653,7 +690,7 @@ elif workspace == "Batch Reliability":
     log_file = Path("logs/batch_processing.log")
 
     if log_file.exists():
-        with st.expander("View Recent Reliability Logs"):
+        with st.expander("📋 View Recent Reliability Logs"):
             lines = log_file.read_text(
                 encoding="utf-8",
                 errors="replace",
@@ -667,11 +704,333 @@ elif workspace == "Batch Reliability":
             )
 
 
+# ==================================================
+# WORKSPACE 3: CONTEXT MANAGEMENT
+# ==================================================
+
+elif workspace == "Context Management":
+
+    st.markdown("## Context Management Lab")
+    st.caption(
+        "Measure token usage, detect context-window overflow, and safely "
+        "prepare long inputs using truncation, chunking, or summarization."
+    )
+
+    with st.container(border=True):
+        st.markdown("### 1) Input & Context Budget")
+
+        system_prompt_context = st.text_area(
+            "System Prompt",
+            value=(
+                "You are a helpful assistant. Preserve important facts "
+                "and respond clearly."
+            ),
+            height=80,
+            key="context_system_prompt",
+        )
+
+        long_text = st.text_area(
+            "Long Input",
+            placeholder=(
+                "Paste a long document, transcript, report, article, "
+                "clinical note collection, or other large text here..."
+            ),
+            height=240,
+            key="context_long_text",
+        )
+
+        c1, c2, c3, c4 = st.columns(4)
+
+        with c1:
+            context_limit = st.number_input(
+                "Context Window",
+                min_value=512,
+                max_value=200000,
+                value=8192,
+                step=512,
+            )
+
+        with c2:
+            reserved_output = st.number_input(
+                "Reserved Output Tokens",
+                min_value=64,
+                max_value=16000,
+                value=1000,
+                step=100,
+            )
+
+        with c3:
+            other_context = st.number_input(
+                "Other Context Tokens",
+                min_value=0,
+                max_value=50000,
+                value=0,
+                step=100,
+                help="Conversation history, retrieved documents, tool output, etc.",
+            )
+
+        with c4:
+            safety_margin = st.number_input(
+                "Safety Margin",
+                min_value=0,
+                max_value=4000,
+                value=128,
+                step=64,
+            )
+
+    analysis = analyze_context(
+        text=long_text,
+        context_limit=int(context_limit),
+        reserved_output_tokens=int(reserved_output),
+        system_prompt=system_prompt_context,
+        other_context_tokens=int(other_context),
+        safety_margin=int(safety_margin),
+    )
+
+    st.markdown("### 2) Context Safety Analyzer")
+
+    m1, m2, m3, m4, m5 = st.columns(5)
+    m1.metric("Input Tokens", analysis["input_tokens"])
+    m2.metric("Available Budget", analysis["available_input_budget"])
+    m3.metric("Overflow", analysis["overflow_tokens"])
+    m4.metric(
+        "Utilization",
+        f"{analysis['utilization_percent']:.1f}%",
+    )
+    m5.metric("Status", analysis["status"])
+
+    budget = max(analysis["available_input_budget"], 1)
+    st.progress(
+        min(analysis["input_tokens"] / budget, 1.0)
+    )
+
+    if analysis["status"] == "SAFE":
+        st.success(
+            "Input fits safely inside the calculated context budget."
+        )
+    elif analysis["status"] == "WARNING":
+        st.warning(
+            "Input is close to the context limit. A smaller input or "
+            "larger safety margin may be safer."
+        )
+    else:
+        st.error(
+            f"Input exceeds the available budget by "
+            f"{analysis['overflow_tokens']} tokens."
+        )
+
+    with st.expander("How the budget is calculated"):
+        st.code(
+            "Available Input Budget = Context Window\n"
+            "- Reserved Output Tokens\n"
+            "- System Prompt Tokens\n"
+            "- Other Context Tokens\n"
+            "- Safety Margin"
+        )
+        st.write(
+            f"System prompt tokens: **{analysis['system_prompt_tokens']}**"
+        )
+
+    st.markdown("### 3) Choose Handling Strategy")
+
+    strategy = st.radio(
+        "Strategy",
+        [
+            "Truncation",
+            "Chunking",
+            "Summarization",
+        ],
+        horizontal=True,
+    )
+
+    if strategy == "Truncation":
+        keep = st.selectbox(
+            "Keep which part?",
+            ["start", "end"],
+            help=(
+                "Keep start for introductions/instructions; "
+                "keep end when recent content matters most."
+            ),
+        )
+
+    elif strategy == "Chunking":
+        cc1, cc2 = st.columns(2)
+        with cc1:
+            chunk_size = st.number_input(
+                "Chunk Size (tokens)",
+                min_value=100,
+                max_value=10000,
+                value=min(
+                    1800,
+                    max(
+                        100,
+                        analysis["available_input_budget"],
+                    ),
+                ),
+                step=100,
+            )
+        with cc2:
+            overlap = st.number_input(
+                "Chunk Overlap (tokens)",
+                min_value=0,
+                max_value=2000,
+                value=150,
+                step=50,
+            )
+
+    else:
+        sc1, sc2 = st.columns(2)
+        with sc1:
+            summary_chunk_size = st.number_input(
+                "Summary Chunk Size",
+                min_value=200,
+                max_value=10000,
+                value=1800,
+                step=100,
+            )
+        with sc2:
+            summary_overlap = st.number_input(
+                "Summary Overlap",
+                min_value=0,
+                max_value=2000,
+                value=150,
+                step=50,
+            )
+
+        st.info(
+            "Summarization uses the configured LLM API to summarize chunks, "
+            "then combines the summaries into a smaller context."
+        )
+
+    process_context = st.button(
+        "Process Long Input",
+        type="primary",
+        use_container_width=True,
+    )
+
+    if process_context:
+
+        if not long_text.strip():
+            st.warning("Paste some input text first.")
+
+        elif analysis["available_input_budget"] <= 0:
+            st.error(
+                "No input token budget remains. Reduce reserved/context tokens "
+                "or increase the context window."
+            )
+
+        else:
+            try:
+                with st.spinner(
+                    f"Applying {strategy.lower()} strategy..."
+                ):
+
+                    if strategy == "Truncation":
+                        result = apply_truncation(
+                            text=long_text,
+                            token_budget=analysis["available_input_budget"],
+                            keep=keep,
+                        )
+
+                    elif strategy == "Chunking":
+                        if overlap >= chunk_size:
+                            raise ValueError(
+                                "Chunk overlap must be smaller than chunk size."
+                            )
+
+                        result = apply_chunking(
+                            text=long_text,
+                            chunk_size=int(chunk_size),
+                            overlap=int(overlap),
+                        )
+
+                    else:
+                        if not OPENROUTER_API_KEY:
+                            raise ValueError(
+                                "OPENROUTER_API_KEY is required for "
+                                "LLM summarization."
+                            )
+
+                        if summary_overlap >= summary_chunk_size:
+                            raise ValueError(
+                                "Summary overlap must be smaller than "
+                                "summary chunk size."
+                            )
+
+                        result = apply_summarization(
+                            text=long_text,
+                            token_budget=analysis["available_input_budget"],
+                            chunk_size=int(summary_chunk_size),
+                            overlap=int(summary_overlap),
+                        )
+
+                st.session_state.context_result = result
+                st.success(
+                    f"{strategy} completed successfully."
+                )
+
+            except Exception as error:
+                st.error(
+                    f"Context processing failed: {error}"
+                )
+
+    if st.session_state.context_result:
+        result = st.session_state.context_result
+
+        st.markdown("### 4) Processed Result")
+
+        r1, r2, r3 = st.columns(3)
+        r1.metric(
+            "Original Tokens",
+            result["original_tokens"],
+        )
+        r2.metric(
+            "Processed Tokens",
+            result["processed_tokens"],
+        )
+        r3.metric(
+            "Chunks",
+            len(result.get("chunks", [])),
+        )
+
+        if result["strategy"] == "chunking":
+            chunks = result.get("chunks", [])
+
+            for index, chunk in enumerate(chunks, start=1):
+                with st.expander(
+                    f"Chunk {index} • {count_tokens(chunk)} tokens"
+                ):
+                    st.write(chunk)
+
+        else:
+            processed_text = result.get(
+                "processed_text",
+                "",
+            )
+
+            st.text_area(
+                "Processed Text",
+                value=processed_text or "",
+                height=300,
+                disabled=True,
+            )
+
+            if result.get("chunk_summaries"):
+                with st.expander(
+                    "View individual chunk summaries"
+                ):
+                    for summary in result[
+                        "chunk_summaries"
+                    ]:
+                        st.write(summary)
+                        st.divider()
+
+
 # --------------------------------------------------
 # FOOTER
 # --------------------------------------------------
 
 st.write("")
 st.caption(
-    "PayloadLab AI • JSON Inspection • API Reliability • Resumable Batch Processing"
+    "PayloadLab AI • JSON Inspection • API Reliability • Context Management"
 )

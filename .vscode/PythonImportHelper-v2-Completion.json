@@ -1,20 +1,211 @@
 [
     {
-        "label": "time",
+        "label": "json",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
         "documentation": {}
     },
     {
@@ -130,6 +321,353 @@
         "documentation": {}
     },
     {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "build_chat_payload",
+        "importPath": "payload_builder",
+        "description": "payload_builder",
+        "isExtraImport": true,
+        "detail": "payload_builder",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_api_operation",
+        "importPath": "services.failure_simulator",
+        "description": "services.failure_simulator",
+        "isExtraImport": true,
+        "detail": "services.failure_simulator",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "send_llm_request",
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "isExtraImport": true,
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "run_with_retry",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedRateLimitError",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedServerError",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedTimeoutError",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "run_with_retry",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedRateLimitError",
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "isExtraImport": true,
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "save_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "reset_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "reset_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "save_checkpoint",
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "isExtraImport": true,
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "count_tokens",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "truncate_text",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_text",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "count_tokens",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_context",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "truncate_text",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_text",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_context",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "count_tokens",
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "isExtraImport": true,
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "parsedate_to_datetime",
+        "importPath": "email.utils",
+        "description": "email.utils",
+        "isExtraImport": true,
+        "detail": "email.utils",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
         "label": "validate_payload",
         "importPath": "validators",
         "description": "validators",
@@ -194,12 +732,12 @@
         "documentation": {}
     },
     {
-        "label": "json",
+        "label": "logging",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
         "documentation": {}
     },
     {
@@ -212,51 +750,59 @@
         "documentation": {}
     },
     {
-        "label": "build_chat_payload",
-        "importPath": "payload_builder",
-        "description": "payload_builder",
+        "label": "TOTAL_NOTES",
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
         "isExtraImport": true,
-        "detail": "payload_builder",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "build_chat_payload",
-        "importPath": "payload_builder",
-        "description": "payload_builder",
+        "label": "process_batch",
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
         "isExtraImport": true,
-        "detail": "payload_builder",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "build_chat_payload",
-        "importPath": "payload_builder",
-        "description": "payload_builder",
+        "label": "get_batch_status",
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
         "isExtraImport": true,
-        "detail": "payload_builder",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "build_chat_payload",
-        "importPath": "payload_builder",
-        "description": "payload_builder",
+        "label": "process_batch",
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
         "isExtraImport": true,
-        "detail": "payload_builder",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "send_llm_request",
-        "importPath": "services.llm_service",
-        "description": "services.llm_service",
+        "label": "apply_truncation",
+        "importPath": "services.context_service",
+        "description": "services.context_service",
         "isExtraImport": true,
-        "detail": "services.llm_service",
+        "detail": "services.context_service",
         "documentation": {}
     },
     {
-        "label": "send_llm_request",
-        "importPath": "services.llm_service",
-        "description": "services.llm_service",
+        "label": "apply_chunking",
+        "importPath": "services.context_service",
+        "description": "services.context_service",
         "isExtraImport": true,
-        "detail": "services.llm_service",
+        "detail": "services.context_service",
+        "documentation": {}
+    },
+    {
+        "label": "apply_summarization",
+        "importPath": "services.context_service",
+        "description": "services.context_service",
+        "isExtraImport": true,
+        "detail": "services.context_service",
         "documentation": {}
     },
     {
@@ -277,59 +823,120 @@
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "load_patient_notes",
+        "kind": 2,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "def load_patient_notes() -> list[dict]:\n    \"\"\"\n    Load the 50 synthetic patient notes.\n    \"\"\"\n    with open(\n        NOTES_FILE,\n        \"r\",\n        encoding=\"utf-8\",\n    ) as file:\n        notes = json.load(file)",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "get_batch_status",
+        "kind": 2,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "def get_batch_status(\n    checkpoint: Dict[str, Any],\n) -> Dict[str, Any]:\n    \"\"\"\n    Return dashboard-friendly batch counts.\n    \"\"\"\n    completed_ids = set(\n        checkpoint.get(\n            \"completed\",\n            [],",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "summarize_note_simulated",
+        "kind": 2,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "def summarize_note_simulated(\n    note: Dict[str, Any],\n    failure_mode: str = \"mixed\",\n) -> str:\n    \"\"\"\n    Simulate an LLM summarization request.\n    \"\"\"\n    note_id = note[\"id\"]\n    simulate_api_operation(\n        note_id=note_id,",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "summarize_note_live",
+        "kind": 2,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "def summarize_note_live(\n    note: Dict[str, Any],\n    max_retries: int,\n    base_delay: float,\n) -> str:\n    \"\"\"\n    Send one synthetic patient note to\n    the real LLM API for summarization.\n    \"\"\"\n    payload = build_chat_payload(",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "process_batch",
+        "kind": 2,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "def process_batch(\n    mode: str = \"simulation\",\n    failure_mode: str = \"mixed\",\n    max_retries: int = 3,\n    base_delay: float = 0.5,\n) -> Dict[str, Any]:\n    \"\"\"\n    Process all notes with progress\n    checkpointing.\n    mode:",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "logger = get_logger()\nNOTES_FILE = Path(\n    \"data/synthetic_notes.json\"\n)\nTOTAL_NOTES = 50\ndef load_patient_notes() -> list[dict]:\n    \"\"\"\n    Load the 50 synthetic patient notes.\n    \"\"\"\n    with open(",
+        "detail": "services.batch_service",
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "label": "NOTES_FILE",
+        "kind": 5,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "NOTES_FILE = Path(\n    \"data/synthetic_notes.json\"\n)\nTOTAL_NOTES = 50\ndef load_patient_notes() -> list[dict]:\n    \"\"\"\n    Load the 50 synthetic patient notes.\n    \"\"\"\n    with open(\n        NOTES_FILE,",
+        "detail": "services.batch_service",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_NOTES",
+        "kind": 5,
+        "importPath": "services.batch_service",
+        "description": "services.batch_service",
+        "peekOfCode": "TOTAL_NOTES = 50\ndef load_patient_notes() -> list[dict]:\n    \"\"\"\n    Load the 50 synthetic patient notes.\n    \"\"\"\n    with open(\n        NOTES_FILE,\n        \"r\",\n        encoding=\"utf-8\",\n    ) as file:",
+        "detail": "services.batch_service",
+        "documentation": {}
+    },
+    {
+        "label": "apply_truncation",
+        "kind": 2,
+        "importPath": "services.context_service",
+        "description": "services.context_service",
+        "peekOfCode": "def apply_truncation(\n    text: str,\n    token_budget: int,\n    keep: str = \"start\",\n) -> Dict[str, Any]:\n    processed = truncate_text(\n        text=text,\n        max_tokens=token_budget,\n        keep=keep,\n    )",
+        "detail": "services.context_service",
+        "documentation": {}
+    },
+    {
+        "label": "apply_chunking",
+        "kind": 2,
+        "importPath": "services.context_service",
+        "description": "services.context_service",
+        "peekOfCode": "def apply_chunking(\n    text: str,\n    chunk_size: int,\n    overlap: int,\n) -> Dict[str, Any]:\n    chunks = chunk_text(\n        text=text,\n        chunk_size=chunk_size,\n        overlap=overlap,\n    )",
+        "detail": "services.context_service",
+        "documentation": {}
+    },
+    {
+        "label": "summarize_chunk_with_llm",
+        "kind": 2,
+        "importPath": "services.context_service",
+        "description": "services.context_service",
+        "peekOfCode": "def summarize_chunk_with_llm(\n    chunk: str,\n    max_retries: int = 2,\n) -> str:\n    payload = build_chat_payload(\n        model=DEFAULT_MODEL,\n        system_prompt=(\n            \"You compress long input for an LLM context-management \"\n            \"workflow. Preserve the most important facts, numbers, \"\n            \"uncertainty, decisions, and relationships. Do not invent \"",
+        "detail": "services.context_service",
+        "documentation": {}
+    },
+    {
+        "label": "apply_summarization",
+        "kind": 2,
+        "importPath": "services.context_service",
+        "description": "services.context_service",
+        "peekOfCode": "def apply_summarization(\n    text: str,\n    token_budget: int,\n    chunk_size: int = 1800,\n    overlap: int = 150,\n) -> Dict[str, Any]:\n    \"\"\"\n    Hierarchical summarization approach:\n    1. Split long input into chunks.\n    2. Summarize each chunk with the LLM.",
+        "detail": "services.context_service",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_api_operation",
+        "kind": 2,
+        "importPath": "services.failure_simulator",
+        "description": "services.failure_simulator",
+        "peekOfCode": "def simulate_api_operation(\n    note_id: int,\n    failure_mode: str = \"mixed\",\n):\n    \"\"\"\n    Simulate an API operation for testing\n    retry and failure-handling behavior.\n    \"\"\"\n    if failure_mode == \"none\":\n        return (",
+        "detail": "services.failure_simulator",
         "documentation": {}
     },
     {
@@ -337,8 +944,269 @@
         "kind": 2,
         "importPath": "services.llm_service",
         "description": "services.llm_service",
-        "peekOfCode": "def send_llm_request(\n    payload: dict,\n    max_retries: int = 3,\n) -> dict:\n    # 1. Validate payload\n    payload_errors = validate_payload(payload)\n    if payload_errors:\n        return {\n            \"success\": False,\n            \"stage\": \"payload_validation\",",
+        "peekOfCode": "def send_llm_request(\n    payload: dict,\n    max_retries: int = 3,\n    base_delay: float = 1.0,\n    connect_timeout: float = 10.0,\n    read_timeout: float = 90.0,\n) -> dict:\n    \"\"\"\n    Send an LLM request with graceful handling for:\n    - invalid payloads",
         "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "logger = get_logger()\nRETRYABLE_STATUS_CODES = {\n    429,\n    500,\n    502,\n    503,\n    504,\n}\ndef _calculate_backoff(\n    attempt: int,",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "RETRYABLE_STATUS_CODES",
+        "kind": 5,
+        "importPath": "services.llm_service",
+        "description": "services.llm_service",
+        "peekOfCode": "RETRYABLE_STATUS_CODES = {\n    429,\n    500,\n    502,\n    503,\n    504,\n}\ndef _calculate_backoff(\n    attempt: int,\n    base_delay: float,",
+        "detail": "services.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "sample_text",
+        "kind": 5,
+        "importPath": "test.test_context",
+        "description": "test.test_context",
+        "peekOfCode": "sample_text = (\n    \"Artificial intelligence systems process text as tokens. \"\n    * 500\n)\nanalysis = analyze_context(\n    text=sample_text,\n    context_limit=2048,\n    reserved_output_tokens=400,\n    system_prompt=(\n        \"You are a helpful assistant.\"",
+        "detail": "test.test_context",
+        "documentation": {}
+    },
+    {
+        "label": "analysis",
+        "kind": 5,
+        "importPath": "test.test_context",
+        "description": "test.test_context",
+        "peekOfCode": "analysis = analyze_context(\n    text=sample_text,\n    context_limit=2048,\n    reserved_output_tokens=400,\n    system_prompt=(\n        \"You are a helpful assistant.\"\n    ),\n)\nprint(\"CONTEXT ANALYSIS\")\nprint(analysis)",
+        "detail": "test.test_context",
+        "documentation": {}
+    },
+    {
+        "label": "truncated",
+        "kind": 5,
+        "importPath": "test.test_context",
+        "description": "test.test_context",
+        "peekOfCode": "truncated = truncate_text(\n    sample_text,\n    max_tokens=500,\n)\nprint(\"Tokens after truncation:\", count_tokens(truncated))\nprint(\"\\nCHUNKING TEST\")\nchunks = chunk_text(\n    sample_text,\n    chunk_size=500,\n    overlap=50,",
+        "detail": "test.test_context",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "test.test_context",
+        "description": "test.test_context",
+        "peekOfCode": "chunks = chunk_text(\n    sample_text,\n    chunk_size=500,\n    overlap=50,\n)\nprint(\"Chunks created:\", len(chunks))\nprint(\n    \"Chunk token counts:\",\n    [count_tokens(chunk) for chunk in chunks],\n)",
+        "detail": "test.test_context",
+        "documentation": {}
+    },
+    {
+        "label": "create_empty_checkpoint",
+        "kind": 2,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "def create_empty_checkpoint() -> Dict[str, Any]:\n    return {\n        \"completed\": [],\n        \"failed\": [],\n        \"results\": {},\n    }\ndef _normalize_checkpoint(\n    checkpoint: Dict[str, Any],\n) -> Dict[str, Any]:\n    \"\"\"",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "kind": 2,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "def load_checkpoint() -> Dict[str, Any]:\n    \"\"\"\n    Load saved batch progress.\n    \"\"\"\n    if not CHECKPOINT_FILE.exists():\n        return create_empty_checkpoint()\n    try:\n        with open(\n            CHECKPOINT_FILE,\n            \"r\",",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "save_checkpoint",
+        "kind": 2,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "def save_checkpoint(\n    checkpoint: Dict[str, Any],\n) -> None:\n    \"\"\"\n    Save progress using a temporary file,\n    then replace the real checkpoint.\n    This reduces the risk of leaving a\n    half-written JSON file if the program\n    stops while saving.\n    \"\"\"",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "reset_checkpoint",
+        "kind": 2,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "def reset_checkpoint() -> None:\n    \"\"\"\n    Delete saved progress.\n    \"\"\"\n    if CHECKPOINT_FILE.exists():\n        CHECKPOINT_FILE.unlink()\n    if TEMP_CHECKPOINT_FILE.exists():\n        TEMP_CHECKPOINT_FILE.unlink()",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "DATA_DIR = Path(\"data\")\nDATA_DIR.mkdir(\n    exist_ok=True\n)\nCHECKPOINT_FILE = (\n    DATA_DIR / \"progress.json\"\n)\nTEMP_CHECKPOINT_FILE = (\n    DATA_DIR / \"progress.tmp.json\"\n)",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "CHECKPOINT_FILE",
+        "kind": 5,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "CHECKPOINT_FILE = (\n    DATA_DIR / \"progress.json\"\n)\nTEMP_CHECKPOINT_FILE = (\n    DATA_DIR / \"progress.tmp.json\"\n)\ndef create_empty_checkpoint() -> Dict[str, Any]:\n    return {\n        \"completed\": [],\n        \"failed\": [],",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "TEMP_CHECKPOINT_FILE",
+        "kind": 5,
+        "importPath": "utils.checkpoint",
+        "description": "utils.checkpoint",
+        "peekOfCode": "TEMP_CHECKPOINT_FILE = (\n    DATA_DIR / \"progress.tmp.json\"\n)\ndef create_empty_checkpoint() -> Dict[str, Any]:\n    return {\n        \"completed\": [],\n        \"failed\": [],\n        \"results\": {},\n    }\ndef _normalize_checkpoint(",
+        "detail": "utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "get_encoder",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def get_encoder():\n    \"\"\"\n    Return a tokenizer encoder.\n    cl100k_base is used as a practical estimate for many modern LLMs.\n    Exact token counts can vary by model/provider.\n    \"\"\"\n    if tiktoken is None:\n        return None\n    return tiktoken.get_encoding(DEFAULT_ENCODING)\ndef count_tokens(text: str) -> int:",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "count_tokens",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def count_tokens(text: str) -> int:\n    \"\"\"\n    Estimate token count for text.\n    \"\"\"\n    if not text:\n        return 0\n    encoder = get_encoder()\n    if encoder is not None:\n        return len(encoder.encode(text))\n    # Fallback estimate if tiktoken is unavailable.",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_input_budget",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def calculate_input_budget(\n    context_limit: int,\n    reserved_output_tokens: int,\n    system_prompt_tokens: int = 0,\n    other_context_tokens: int = 0,\n    safety_margin: int = 128,\n) -> int:\n    \"\"\"\n    Calculate how many tokens remain available for user input.\n    \"\"\"",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "truncate_text",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def truncate_text(\n    text: str,\n    max_tokens: int,\n    keep: str = \"start\",\n) -> str:\n    \"\"\"\n    Truncate text to a token budget.\n    keep:\n        \"start\" -> keep the beginning\n        \"end\"   -> keep the end",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_text",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def chunk_text(\n    text: str,\n    chunk_size: int,\n    overlap: int = 0,\n) -> List[str]:\n    \"\"\"\n    Split long text into token-based chunks with optional overlap.\n    \"\"\"\n    if not text:\n        return []",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_context",
+        "kind": 2,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "def analyze_context(\n    text: str,\n    context_limit: int,\n    reserved_output_tokens: int,\n    system_prompt: str = \"\",\n    other_context_tokens: int = 0,\n    safety_margin: int = 128,\n) -> Dict[str, Any]:\n    \"\"\"\n    Return context-window usage information.",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ENCODING",
+        "kind": 5,
+        "importPath": "utils.context_utils",
+        "description": "utils.context_utils",
+        "peekOfCode": "DEFAULT_ENCODING = \"cl100k_base\"\ndef get_encoder():\n    \"\"\"\n    Return a tokenizer encoder.\n    cl100k_base is used as a practical estimate for many modern LLMs.\n    Exact token counts can vary by model/provider.\n    \"\"\"\n    if tiktoken is None:\n        return None\n    return tiktoken.get_encoding(DEFAULT_ENCODING)",
+        "detail": "utils.context_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "kind": 2,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "def get_logger():\n    \"\"\"\n    Create and return the application logger.\n    \"\"\"\n    logger = logging.getLogger(\n        \"payloadlab_batch\"\n    )\n    logger.setLevel(\n        logging.INFO\n    )",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_DIR",
+        "kind": 5,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "LOG_DIR = Path(\"logs\")\nLOG_DIR.mkdir(\n    exist_ok=True\n)\nLOG_FILE = LOG_DIR / \"batch_processing.log\"\ndef get_logger():\n    \"\"\"\n    Create and return the application logger.\n    \"\"\"\n    logger = logging.getLogger(",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILE",
+        "kind": 5,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "LOG_FILE = LOG_DIR / \"batch_processing.log\"\ndef get_logger():\n    \"\"\"\n    Create and return the application logger.\n    \"\"\"\n    logger = logging.getLogger(\n        \"payloadlab_batch\"\n    )\n    logger.setLevel(\n        logging.INFO",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedRateLimitError",
+        "kind": 6,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "class SimulatedRateLimitError(Exception):\n    \"\"\"Simulated HTTP 429 failure.\"\"\"\nclass SimulatedServerError(Exception):\n    \"\"\"Simulated temporary 5xx failure.\"\"\"\nclass SimulatedTimeoutError(Exception):\n    \"\"\"Simulated request timeout.\"\"\"\ndef calculate_backoff(\n    attempt: int,\n    base_delay: float = 1.0,\n    max_delay: float = 30.0,",
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedServerError",
+        "kind": 6,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "class SimulatedServerError(Exception):\n    \"\"\"Simulated temporary 5xx failure.\"\"\"\nclass SimulatedTimeoutError(Exception):\n    \"\"\"Simulated request timeout.\"\"\"\ndef calculate_backoff(\n    attempt: int,\n    base_delay: float = 1.0,\n    max_delay: float = 30.0,\n    use_jitter: bool = True,\n) -> float:",
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "SimulatedTimeoutError",
+        "kind": 6,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "class SimulatedTimeoutError(Exception):\n    \"\"\"Simulated request timeout.\"\"\"\ndef calculate_backoff(\n    attempt: int,\n    base_delay: float = 1.0,\n    max_delay: float = 30.0,\n    use_jitter: bool = True,\n) -> float:\n    \"\"\"\n    Exponential backoff with optional",
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_backoff",
+        "kind": 2,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "def calculate_backoff(\n    attempt: int,\n    base_delay: float = 1.0,\n    max_delay: float = 30.0,\n    use_jitter: bool = True,\n) -> float:\n    \"\"\"\n    Exponential backoff with optional\n    random jitter.\n    \"\"\"",
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "run_with_retry",
+        "kind": 2,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "def run_with_retry(\n    operation: Callable[[], Any],\n    max_retries: int = 3,\n    base_delay: float = 1.0,\n) -> Any:\n    \"\"\"\n    Retry only temporary failures.\n    Total attempts =\n    initial attempt + max_retries.\n    \"\"\"",
+        "detail": "utils.retry",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "utils.retry",
+        "description": "utils.retry",
+        "peekOfCode": "logger = get_logger()\nclass SimulatedRateLimitError(Exception):\n    \"\"\"Simulated HTTP 429 failure.\"\"\"\nclass SimulatedServerError(Exception):\n    \"\"\"Simulated temporary 5xx failure.\"\"\"\nclass SimulatedTimeoutError(Exception):\n    \"\"\"Simulated request timeout.\"\"\"\ndef calculate_backoff(\n    attempt: int,\n    base_delay: float = 1.0,",
+        "detail": "utils.retry",
         "documentation": {}
     },
     {
@@ -450,6 +1318,15 @@
         "documentation": {}
     },
     {
+        "label": "checkpoint",
+        "kind": 5,
+        "importPath": "test_batch",
+        "description": "test_batch",
+        "peekOfCode": "checkpoint = process_batch(\n    failure_mode=\"mixed\",\n    max_retries=3,\n    base_delay=0.1,\n)\nprint(\"\\nBATCH COMPLETE\")\nprint(\n    \"Completed:\",\n    len(\n        checkpoint[\"completed\"]",
+        "detail": "test_batch",
+        "documentation": {}
+    },
+    {
         "label": "valid_payload",
         "kind": 5,
         "importPath": "test_cases",
@@ -465,6 +1342,33 @@
         "description": "test_cases",
         "peekOfCode": "errors = validate_payload(valid_payload)\nprint(\"Errors:\", errors)",
         "detail": "test_cases",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint",
+        "kind": 5,
+        "importPath": "test_checkpoint",
+        "description": "test_checkpoint",
+        "peekOfCode": "checkpoint = load_checkpoint()\nprint(\"\\nBEFORE:\")\nprint(checkpoint)\ncheckpoint[\"completed\"].append(\n    1\n)\ncheckpoint[\"results\"][\"1\"] = (\n    \"Test summary for note 1.\"\n)\nsave_checkpoint(",
+        "detail": "test_checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint[\"results\"][\"1\"]",
+        "kind": 5,
+        "importPath": "test_checkpoint",
+        "description": "test_checkpoint",
+        "peekOfCode": "checkpoint[\"results\"][\"1\"] = (\n    \"Test summary for note 1.\"\n)\nsave_checkpoint(\n    checkpoint\n)\nprint(\"\\nAFTER SAVE:\")\nprint(\n    load_checkpoint()\n)",
+        "detail": "test_checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "test_logger",
+        "description": "test_logger",
+        "peekOfCode": "logger = get_logger()\nlogger.info(\n    \"Batch processing test started.\"\n)\nlogger.warning(\n    \"Simulated rate limit warning.\"\n)\nlogger.error(\n    \"Simulated API failure.\"\n)",
+        "detail": "test_logger",
         "documentation": {}
     },
     {
@@ -492,6 +1396,24 @@
         "description": "test_response",
         "peekOfCode": "invalid_response = {\n    \"id\": \"response_456\",\n    \"choices\": [\n        {\n            \"message\": {\n                \"role\": \"assistant\"\n            }\n        }\n    ]\n}",
         "detail": "test_response",
+        "documentation": {}
+    },
+    {
+        "label": "test_operation",
+        "kind": 2,
+        "importPath": "test_retry",
+        "description": "test_retry",
+        "peekOfCode": "def test_operation():\n    attempt_counter[\"count\"] += 1\n    print(\n        f\"Running attempt \"\n        f\"{attempt_counter['count']}\"\n    )\n    # First two attempts fail\n    if attempt_counter[\"count\"] <= 2:\n        raise SimulatedRateLimitError(\n            \"Simulated HTTP 429 rate limit.\"",
+        "detail": "test_retry",
+        "documentation": {}
+    },
+    {
+        "label": "attempt_counter",
+        "kind": 5,
+        "importPath": "test_retry",
+        "description": "test_retry",
+        "peekOfCode": "attempt_counter = {\n    \"count\": 0\n}\ndef test_operation():\n    attempt_counter[\"count\"] += 1\n    print(\n        f\"Running attempt \"\n        f\"{attempt_counter['count']}\"\n    )\n    # First two attempts fail",
+        "detail": "test_retry",
         "documentation": {}
     },
     {

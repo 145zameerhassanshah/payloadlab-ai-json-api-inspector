@@ -9,15 +9,15 @@ logger = get_logger()
 
 
 class SimulatedRateLimitError(Exception):
-    pass
+    """Simulated HTTP 429 failure."""
 
 
 class SimulatedServerError(Exception):
-    pass
+    """Simulated temporary 5xx failure."""
 
 
 class SimulatedTimeoutError(Exception):
-    pass
+    """Simulated request timeout."""
 
 
 def calculate_backoff(
@@ -27,20 +27,24 @@ def calculate_backoff(
     use_jitter: bool = True,
 ) -> float:
     """
-    Calculate exponential backoff delay.
+    Exponential backoff with optional
+    random jitter.
     """
 
-    delay = base_delay * (2 ** attempt)
+    delay = (
+        base_delay
+        * (2 ** attempt)
+    )
 
     if use_jitter:
         delay += random.uniform(
             0,
-            1
+            1,
         )
 
     return min(
         delay,
-        max_delay
+        max_delay,
     )
 
 
@@ -50,41 +54,43 @@ def run_with_retry(
     base_delay: float = 1.0,
 ) -> Any:
     """
-    Execute an operation with retry logic.
+    Retry only temporary failures.
 
-    Retries temporary failures using
-    exponential backoff with jitter.
+    Total attempts =
+    initial attempt + max_retries.
     """
+
+    retryable_errors = (
+        SimulatedRateLimitError,
+        SimulatedTimeoutError,
+        SimulatedServerError,
+        TimeoutError,
+        ConnectionError,
+    )
 
     for attempt in range(
         max_retries + 1
     ):
-
         try:
             return operation()
 
-        except (
-            SimulatedRateLimitError,
-            SimulatedTimeoutError,
-            SimulatedServerError,
-            TimeoutError,
-            ConnectionError,
-        ) as error:
+        except retryable_errors as error:
+            attempt_number = (
+                attempt + 1
+            )
 
             logger.warning(
                 "Temporary failure | "
-                f"attempt={attempt + 1} | "
+                f"attempt={attempt_number} | "
                 f"error={type(error).__name__} | "
                 f"message={error}"
             )
 
             if attempt >= max_retries:
-
                 logger.error(
                     "Maximum retries reached | "
                     f"error={type(error).__name__}"
                 )
-
                 raise
 
             wait_time = calculate_backoff(
